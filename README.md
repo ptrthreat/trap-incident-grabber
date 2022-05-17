@@ -9,10 +9,10 @@ The app comes in 3 OS flavors... two versions of MAC chipset and one for linux. 
 - Run the app with the config.json file in the same directory via command line... specify the incident id
 - If you get no output double check your config.json file values ... Oh and make sure the incident actually exists within your PTR/TRAP instance
 
-## ./trap-linux-arm64 -incident=101
+## ./trapinc-linux-arm64 -incident=101
 
-FUTURE: You will be able to specify a range of incident IDs
-FUTURE: Run the application as a MicroService / Web Browser application
+### FUTURE: You will be able to specify a range of incident IDs
+### FUTURE: Run the application as a MicroService / Web Browser application
 
 
 ## EXAMPLE Run
