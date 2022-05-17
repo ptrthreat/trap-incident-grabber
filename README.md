@@ -1,10 +1,10 @@
 # trap-incident-grabber
 Retrieve specific TRAP incident details
 
-> ./trapinc-linux-amd64 -incident=100
 
-josephyun$ ./trapinc-mac-arm64 -incident=100 > out-100.json
+josephyun$ ./trapinc-mac-arm64 -incident=100
 
+```json
 {
    "assignee": "Unassigned",
    "close_detail": "Message being closed due to age",
@@ -329,3 +329,4 @@ josephyun$ ./trapinc-mac-arm64 -incident=100 > out-100.json
    "updated_at": "2022-05-06T06:14:48Z",
    "users": []
 }
+```
