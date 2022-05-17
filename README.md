@@ -1,10 +1,27 @@
 # trap-incident-grabber
-Retrieve specific TRAP incident details
+The purpose of this application is to grab the incident details for a specific PTR / TRAP incident ID.  
+I use this app frequently to QUICKLY grab the incident details.  Also note that the app will format the JSON prior to output for easier readability.
+
+The app comes in 3 OS flavors... two versions of MAC chipset and one for linux. IF anyone is interested in a windows version let me know in the comments.
+
+- Download the correct OS version for your environment
+- Download and EDIT the config.json file with the correct PTR/TRAP host info and your PTR / TRAP API Key
+- Run the app with the config.json file in the same directory via command line... specify the incident id
+- If you get no output double check your config.json file values ... Oh and make sure the incident actually exists within your PTR/TRAP instance
+
+## ./trap-linux-arm64 -incident=101
+
+FUTURE: You will be able to specify a range of incident IDs
+FUTURE: Run the application as a MicroService / Web Browser application
 
 
 ## EXAMPLE Run
 
+## Output to CLI
 ### > ./trapinc-mac-arm64 -incident=100
+
+## Output to file / redirect output stream to specific file name
+### > ./trapinc-mac-arm64 -incident=100 > output.json
 
 ```json
 {
