@@ -2,7 +2,9 @@
 Retrieve specific TRAP incident details
 
 
-josephyun$ ./trapinc-mac-arm64 -incident=100
+## EXAMPLE Run
+
+### > ./trapinc-mac-arm64 -incident=100
 
 ```json
 {
